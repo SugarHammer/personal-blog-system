@@ -1,0 +1,2 @@
+2021-06-24 21:03:12.722  INFO 7116 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on LAPTOP-MPFI01BF with PID 7116 (D:\AProject_Java\blog\target\classes started by 17136 in D:\AProject_Java\blog)
+2021-06-24 21:03:12.742  INFO 7116 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default

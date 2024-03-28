@@ -1,0 +1,294 @@
+2022-04-19 14:15:01.504  INFO 18860 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 18860 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 14:15:01.511  INFO 18860 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 14:15:10.420  WARN 18860 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 14:15:11.103  INFO 18860 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 10.433 seconds (JVM running for 11.745)
+2022-04-19 14:15:11.335  INFO 18860 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='127.0.0.1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:15:11.414  WARN 18860 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 14:15:11.429  WARN 18860 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 14:15:11.456  INFO 18860 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:16:29.494  INFO 9492 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 9492 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 14:16:29.495  INFO 9492 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 14:16:34.260  WARN 9492 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 14:16:34.857  INFO 9492 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 5.932 seconds (JVM running for 7.141)
+2022-04-19 14:16:36.841  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:16:36.921  WARN 9492 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 14:16:36.931  WARN 9492 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 14:16:36.939  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:18:58.550  INFO 9492 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[11, {}]}
+2022-04-19 14:18:58.643  INFO 9492 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:21:02.024  INFO 9492 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:21:02.055  INFO 9492 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:21:36.506  INFO 9492 --- [http-nio-9000-exec-8] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:21:36.527  INFO 9492 --- [http-nio-9000-exec-8] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:25:19.797  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2022-04-19 14:25:19.830  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : types
+2022-04-19 14:25:34.702  INFO 9492 --- [http-nio-9000-exec-9] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/types/4', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2022-04-19 14:25:34.717  INFO 9492 --- [http-nio-9000-exec-9] com.wey.aspect.LogAspect                 : Result : types
+2022-04-19 14:25:38.467  INFO 9492 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/types/23', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 23, {}]}
+2022-04-19 14:25:38.479  INFO 9492 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Result : types
+2022-04-19 14:25:40.918  INFO 9492 --- [http-nio-9000-exec-3] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:25:40.931  INFO 9492 --- [http-nio-9000-exec-3] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:25:45.767  INFO 9492 --- [http-nio-9000-exec-9] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2022-04-19 14:25:45.824  INFO 9492 --- [http-nio-9000-exec-9] com.wey.aspect.LogAspect                 : Result : tags
+2022-04-19 14:25:58.724  INFO 9492 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2022-04-19 14:25:58.733  INFO 9492 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Result : types
+2022-04-19 14:26:03.930  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:26:03.938  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:26:06.173  INFO 9492 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[27, {}]}
+2022-04-19 14:26:06.184  INFO 9492 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:26:09.458  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:26:09.472  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:26:19.039  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[27, {}]}
+2022-04-19 14:26:19.051  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:26:20.812  INFO 9492 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:26:20.828  INFO 9492 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:26:25.451  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.ArchiveShowController.archives', args=[{}]}
+2022-04-19 14:26:25.478  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : archives
+2022-04-19 14:30:14.765  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.ArchiveShowController.archives', args=[{}]}
+2022-04-19 14:30:14.782  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Result : archives
+2022-04-19 14:30:43.982  INFO 9492 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:30:43.996  INFO 9492 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:30:51.909  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[27, {}]}
+2022-04-19 14:30:51.920  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:30:57.689  INFO 9492 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:30:57.702  INFO 9492 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:31:02.374  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 答辩, {}]}
+2022-04-19 14:31:02.383  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : search
+2022-04-19 14:31:10.169  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], spring, {}]}
+2022-04-19 14:31:10.176  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : search
+2022-04-19 14:31:23.249  INFO 9492 --- [http-nio-9000-exec-9] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/search', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], crud, {}]}
+2022-04-19 14:31:23.258  INFO 9492 --- [http-nio-9000-exec-9] com.wey.aspect.LogAspect                 : Result : search
+2022-04-19 14:31:26.144  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:31:26.154  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:34:15.188  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:34:15.210  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:39:25.377  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[1, {}]}
+2022-04-19 14:39:25.386  INFO 9492 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:39:32.627  INFO 9492 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[11, {}]}
+2022-04-19 14:39:32.641  INFO 9492 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:41:55.964  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[11, {}]}
+2022-04-19 14:41:55.973  INFO 9492 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:41:59.794  INFO 9492 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[27, {}]}
+2022-04-19 14:41:59.802  INFO 9492 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:42:12.103  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:42:12.117  INFO 9492 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:43:49.017  INFO 10988 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 10988 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 14:43:49.018  INFO 10988 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 14:43:53.558  WARN 10988 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 14:43:54.117  INFO 10988 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 5.469 seconds (JVM running for 6.539)
+2022-04-19 14:53:32.273  INFO 10988 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[11, {}]}
+2022-04-19 14:53:32.368  INFO 10988 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 14:56:10.473  INFO 10988 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 14:56:10.500  WARN 10988 --- [http-nio-9000-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 14:56:10.507  WARN 10988 --- [http-nio-9000-exec-6] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 14:56:10.514  INFO 10988 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 14:57:01.574  INFO 10988 --- [http-nio-9000-exec-3] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[2, {}]}
+2022-04-19 14:57:01.586  INFO 10988 --- [http-nio-9000-exec-3] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 15:10:22.214  INFO 21968 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 21968 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 15:10:22.215  INFO 21968 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 15:10:27.010  WARN 21968 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 15:10:27.586  INFO 21968 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 5.722 seconds (JVM running for 6.641)
+2022-04-19 15:10:37.409  INFO 21968 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 15:10:37.518  WARN 21968 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 15:10:37.527  WARN 21968 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 15:10:37.536  INFO 21968 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 15:17:58.245  INFO 11724 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 11724 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 15:17:58.246  INFO 11724 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 15:18:02.610  WARN 11724 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 15:18:03.171  INFO 11724 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 5.268 seconds (JVM running for 6.265)
+2022-04-19 15:18:06.733  INFO 11724 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 15:18:06.800  WARN 11724 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 15:18:06.807  WARN 11724 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 15:18:06.814  INFO 11724 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 15:18:07.193 ERROR 11724 --- [http-nio-9000-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-9000-exec-1] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:667)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.attoparser.ParseException: Could not parse as expression: "http://git.si-tech.com.cn:9002/xujj_a" (template: "index" - line 130, col 29)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 52 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "http://git.si-tech.com.cn:9002/xujj_a" (template: "index" - line 130, col 29)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:67)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 54 common frames omitted
+
+2022-04-19 15:18:07.206 ERROR 11724 --- [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as expression: "http://git.si-tech.com.cn:9002/xujj_a" (template: "index" - line 130, col 29)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:131)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:62)
+	at org.thymeleaf.standard.expression.StandardExpressionParser.parseExpression(StandardExpressionParser.java:44)
+	at org.thymeleaf.engine.EngineEventUtils.parseAttributeExpression(EngineEventUtils.java:220)
+	at org.thymeleaf.engine.EngineEventUtils.computeAttributeExpression(EngineEventUtils.java:207)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:67)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:667)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1087)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1061)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+
+2022-04-19 15:18:35.891  INFO 18856 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 18856 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 15:18:35.891  INFO 18856 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 15:18:39.972  WARN 18856 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 15:18:40.525  INFO 18856 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 4.957 seconds (JVM running for 5.868)
+2022-04-19 15:18:42.762  INFO 18856 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 15:18:42.834  WARN 18856 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 15:18:42.841  WARN 18856 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 15:18:42.847  INFO 18856 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 15:19:15.146  INFO 18856 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 15:19:15.162  INFO 18856 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 15:19:41.077  INFO 18856 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/27', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[27, {}]}
+2022-04-19 15:19:41.139  INFO 18856 --- [http-nio-9000-exec-7] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 15:20:32.106  INFO 18856 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 15:20:32.123  INFO 18856 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 15:21:11.027  INFO 18856 --- [http-nio-9000-exec-8] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 15:21:11.044  INFO 18856 --- [http-nio-9000-exec-8] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 15:22:31.406  INFO 18856 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[11, {}]}
+2022-04-19 15:22:31.433  INFO 18856 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 15:26:52.374  INFO 18856 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[2, {}]}
+2022-04-19 15:26:52.384  INFO 18856 --- [http-nio-9000-exec-2] com.wey.aspect.LogAspect                 : Result : blog
+2022-04-19 21:18:05.958  INFO 17244 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 17244 (D:\ProgramFilesdemo\IdeaProjects\school\blog\target\classes started by 26441 in D:\ProgramFilesdemo\IdeaProjects\school\blog)
+2022-04-19 21:18:05.966  INFO 17244 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2022-04-19 21:18:12.613  WARN 17244 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2022-04-19 21:18:13.256  INFO 17244 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 7.761 seconds (JVM running for 9.311)
+2022-04-19 21:18:13.429  INFO 17244 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='127.0.0.1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2022-04-19 21:18:13.498  WARN 17244 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 21:18:13.505  WARN 17244 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2022-04-19 21:18:13.514  INFO 17244 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2022-04-19 21:21:56.726  INFO 17244 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/11', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[11, {}]}
+2022-04-19 21:21:57.662  INFO 17244 --- [http-nio-9000-exec-10] com.wey.aspect.LogAspect                 : Result : blog

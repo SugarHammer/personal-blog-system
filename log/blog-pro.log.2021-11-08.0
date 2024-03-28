@@ -1,0 +1,36 @@
+2021-11-08 10:08:08.515  INFO 3948 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 3948 (started by 26441 in D:\Program Files demo\IdeaProjects\blog)
+2021-11-08 10:08:08.517  INFO 3948 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2021-11-08 10:08:14.883  WARN 3948 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-11-08 10:08:15.422  INFO 3948 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 7.311 seconds (JVM running for 13.324)
+2021-11-08 10:09:42.742  INFO 3948 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2021-11-08 10:09:42.947  WARN 3948 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2021-11-08 10:09:42.963  WARN 3948 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2021-11-08 10:09:42.972  INFO 3948 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2021-11-08 10:09:50.563  INFO 3948 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/19', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[19, {}]}
+2021-11-08 10:09:50.694  INFO 3948 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : blog
+2021-11-08 10:23:58.050  INFO 13292 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 13292 (started by 26441 in D:\Program Files demo\IdeaProjects\blog)
+2021-11-08 10:23:58.051  INFO 13292 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2021-11-08 10:24:02.295  WARN 13292 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-11-08 10:24:02.802  INFO 13292 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 5.189 seconds (JVM running for 6.182)
+2021-11-08 11:43:38.961  INFO 968 --- [restartedMain] com.wey.BlogApplication                  : Starting BlogApplication on DESKTOP-LVE1NFM with PID 968 (started by 26441 in D:\Program Files demo\IdeaProjects\blog)
+2021-11-08 11:43:38.985  INFO 968 --- [restartedMain] com.wey.BlogApplication                  : No active profile set, falling back to default profiles: default
+2021-11-08 11:43:45.096  WARN 968 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-11-08 11:43:45.648  INFO 968 --- [restartedMain] com.wey.BlogApplication                  : Started BlogApplication in 7.13 seconds (JVM running for 8.675)
+2021-11-08 11:43:45.776  INFO 968 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='127.0.0.1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2021-11-08 11:43:45.917  WARN 968 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2021-11-08 11:43:45.924  WARN 968 --- [http-nio-9000-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2021-11-08 11:43:45.930  INFO 968 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : index
+2021-11-08 11:43:52.220  INFO 968 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/20', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[20, {}]}
+2021-11-08 11:43:52.354  INFO 968 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Result : blog
+2021-11-08 11:43:54.343  INFO 968 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-11-08 11:43:54.423  INFO 968 --- [http-nio-9000-exec-1] com.wey.aspect.LogAspect                 : Result : tags
+2021-11-08 11:43:56.146  INFO 968 --- [http-nio-9000-exec-3] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-11-08 11:43:56.234  INFO 968 --- [http-nio-9000-exec-3] com.wey.aspect.LogAspect                 : Result : types
+2021-11-08 11:43:58.246  INFO 968 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-11-08 11:43:58.308  INFO 968 --- [http-nio-9000-exec-4] com.wey.aspect.LogAspect                 : Result : tags
+2021-11-08 11:45:38.515  INFO 968 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-11-08 11:45:38.523  INFO 968 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Result : types
+2021-11-08 11:45:40.046  INFO 968 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.index', args=[Page request [number: 0, size 6, sort: updateTime: DESC], {}]}
+2021-11-08 11:45:40.057  INFO 968 --- [http-nio-9000-exec-5] com.wey.aspect.LogAspect                 : Result : index
+2021-11-08 11:45:46.820  INFO 968 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Request : {url='http://localhost:9000/blog/16', ip='0:0:0:0:0:0:0:1', classMethod='com.wey.controller.IndexController.blog', args=[16, {}]}
+2021-11-08 11:45:46.898  INFO 968 --- [http-nio-9000-exec-6] com.wey.aspect.LogAspect                 : Result : blog
