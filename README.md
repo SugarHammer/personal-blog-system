@@ -1,11 +1,11 @@
-# 个人博客系统
+# 个人博客系统(数据库加VX获取☟)
 
 #### 介绍
-基于数据统计分析机制推荐的个人博客系统的设计与实现
+个人博客系统(带数据统计分析)
 有BUG可留言加微
 
 #### 软件架构
-SpringBoot + jpa + thymeleaf + Mysql
+Java + SpringBoot + jpa + thymeleaf + Mysql
 
 
 #### 项目说明
@@ -18,25 +18,17 @@ SpringBoot + jpa + thymeleaf + Mysql
 #### 功能概览图
 ![输入图片说明](photo/%E5%8A%9F%E8%83%BD%E6%B5%81%E7%A8%8B%E5%9B%BE.gif)
 
-### 演示截图
+### 部分功能演示
 #### 客户端功能
 ![输入图片说明](photo/%E5%AE%A2%E6%88%B7%E7%AB%AF.gif)
 
 #### 管理员功能
 ![输入图片说明](photo/%E7%AE%A1%E7%90%86%E7%AB%AF.gif)
 
-#### 代码数据库
-![输入图片说明](photo/%E4%BB%A3%E7%A0%81%E6%95%B0%E6%8D%AE%E5%BA%93.gif)
 
-
-### 环境需求
+### 环境需求(可免费提供)
 - idea/eclipse、jdk-1.8、maven-3.8.6、mysql
 
-### 项目支持
-- 项目的发展，离不开大家得支持~！~
-- 也可以请作者喝一杯咖啡:)
-![输入图片说明](photo/0-%E5%BE%AE%E4%BF%A1_2.png)
-![输入图片说明](photo/0-%E6%94%AF%E4%BB%98%E5%AE%9D_2.png)
 
 ## 有项目修改、安装调试需求 请联系微信
 ![输入图片说明](photo/0-WeChat.png)
